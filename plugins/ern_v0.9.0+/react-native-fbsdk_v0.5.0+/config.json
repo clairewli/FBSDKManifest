@@ -11,6 +11,9 @@
       { "source": "ios/**", "dest": "{{{projectName}}}/Libraries/RCTFBSDK" }
     ],
     "pbxproj": {
+      "addFrameworkReference": [
+          "../../../../Documents/FacebookSDK/Bolts.framework"
+        ],
        "addProject": [
         { "path": "RCTFBSDK/RCTFBSDK.xcodeproj", "group": "Libraries", "staticLibs": [ { "name": "libRCTFBSDK.a", "target": "RCTFBSDK" } ] }
       ],
